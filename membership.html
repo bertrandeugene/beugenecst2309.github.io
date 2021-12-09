@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+        <title>Gym Name TBA</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles_forms.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	<header>
+        <div class="topnav">
+            <a href="index.html"><img id="logo" src="images/logo.jpg" alt="gym logo"></a>
+
+            <div class="topnav-right">
+                <a href="about.html">About</a>
+                <div class="joinbutton"><a class="active" href="membership.html">Join Now</a></div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+	<body>
+        <div class="formdiv">
+            <form style="border:1px solid #ccc">
+                <div class="container">
+                    <h1>Personal Information</h1>
+                    <p>Tell us a little about yourself.</p>
+                    <hr>
+
+                    <label for="fname"><b>First Name</b></label>
+                    <input type="text" placeholder="First Name" name="fname" required>
+
+                    <label for="lname"><b>Last Name</b></label>
+                    <input type="text" placeholder="Last Name" name="lname" required>
+
+                    <label for="birthday"><b>Date of Birth</b></label>
+                    <input type="date" id="birthday" name="birthday" required><br>
+
+                    <label for="gender"><b>I am...</b></label><br><br>
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                    <input type="radio" id="other" name="gender" value="other"> Other
+                    
+                    <br><br>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Email" name="email" required>
+
+                    <label for="phone"><b>Phone Number</b></label>
+                    <input type="text" placeholder="Phone Number" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" size="10" required><br>
+                    
+
+                    <label for="address"><b>Address</b></label>
+                    <input type="text" placeholder="Address" name="address" required>
+
+                    <label for="zip"><b>Zip Code</b></label>
+                    <input type="text" placeholder="Zip Code" maxlength="5" size="10" name="zip" required>
+
+                    <label for="city"><b>City</b></label>
+                    <input type="text" placeholder="City" name="city" size="15" required>
+
+                    <label for="city"><b>State</b></label>
+                    <select>
+                        <option value="AL">Alabama (AL)</option>
+                        <option value="AK">Alaska (AK)</option>
+                        <option value="AZ">Arizona (AZ)</option>
+                        <option value="AR">Arkansas (AR)</option>
+                        <option value="CA">California (CA)</option>
+                        <option value="CO">Colorado (CO)</option>
+                        <option value="CT">Connecticut (CT)</option>
+                        <option value="DE">Delaware (DE)</option>
+                        <option value="DC">District Of Columbia (DC)</option>
+                        <option value="FL">Florida (FL)</option>
+                        <option value="GA">Georgia (GA)</option>
+                        <option value="HI">Hawaii (HI)</option>
+                        <option value="ID">Idaho (ID)</option>
+                        <option value="IL">Illinois (IL)</option>
+                        <option value="IN">Indiana (IN)</option>
+                        <option value="IA">Iowa (IA)</option>
+                        <option value="KS">Kansas (KS)</option>
+                        <option value="KY">Kentucky (KY)</option>
+                        <option value="LA">Louisiana (LA)</option>
+                        <option value="ME">Maine (ME)</option>
+                        <option value="MD">Maryland (MD)</option>
+                        <option value="MA">Massachusetts (MA)</option>
+                        <option value="MI">Michigan (MI)</option>
+                        <option value="MN">Minnesota (MN)</option>
+                        <option value="MS">Mississippi (MS)</option>
+                        <option value="MO">Missouri (MO)</option>
+                        <option value="MT">Montana (MT)</option>
+                        <option value="NE">Nebraska (NE)</option>
+                        <option value="NV">Nevada (NV)</option>
+                        <option value="NH">New Hampshire (NH)</option>
+                        <option value="NJ">New Jersey (NJ)</option>
+                        <option value="NM">New Mexico (NM)</option>
+                        <option value="NY">New York (NY)</option>
+                        <option value="NC">North Carolina (NC)</option>
+                        <option value="ND">North Dakota (ND)</option>
+                        <option value="OH">Ohio (OH)</option>
+                        <option value="OK">Oklahoma (OK)</option>
+                        <option value="OR">Oregon (OR)</option>
+                        <option value="PA">Pennsylvania (PA)</option>
+                        <option value="RI">Rhode Island (RI)</option>
+                        <option value="SC">South Carolina (SC)</option>
+                        <option value="SD">South Dakota (SD)</option>
+                        <option value="TN">Tennessee (TN)</option>
+                        <option value="TX">Texas (TX)</option>
+                        <option value="UT">Utah (UT)</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select>	
+                    
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Join Today</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+
+	</body>
+
+
+
+
+    <footer>
+        <div class="footnav">
+            Jay Fitness
+
+            <div class="footnav-right">
+                (718) 260-5500 | 300 Jay St, Brooklyn, NY 11201
+            </div>
+        </div>
+        </div>
+
+    </footer>
+	
+</html>
